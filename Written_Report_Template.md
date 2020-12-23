@@ -1,9 +1,10 @@
 # Kickstarting with Excel
 
 ## Overview of Project
+The Data set have orgainized is use to help Louise analysis the decision making abount crowdfunding campaign project to help her theather play, names Fever that estimating the budget over $10000.
 
 ### Purpose
-
+Generate table and graph to help Louise knows the different ampaigns will be fared by lunch dates and the funding goals, after Louise came close to its fundrasising goal         by providing the box plot and bar chart of the pivot table in same category of Louise's play Fever. 
 ## Analysis and Challenges
 
 ### Analysis of Outcomes Based on Launch Date
