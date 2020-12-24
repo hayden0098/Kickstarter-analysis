@@ -8,9 +8,15 @@ Generate table and graph to help Louise knows the different ampaigns will be far
 ## Analysis and Challenges
 
 ### Analysis of Outcomes Based on Launch Date
+Creating a pivot table using count of outcomes as column value and every month of the year with "parent category-theater" and launch date "year" as the filter.
+The line graoh was generated from this pivot table, Horizontal axis is month and horizontal axis is the number of outcome count. This graph can be provide Louise a visual summary of the data of pivot table, also uncovering a trend from the visualization. 
+
+Before creating the pivot table, first we need to convert the unix timestamp into readable format to get the year of the launch date for the preparation.
 
 ### Analysis of Outcomes Based on Goals
+In order to provide visualize line graph to Louise see the relation between outcomes and goals, first we need to create a table that state the percentage of each outcome in every $5000 goal range. Then the percentage that calculated by each kind of outcomes can be used as vertical axis in the line chart, the goal range will be the horizontal axis in the chart. 
 
+The line graph above, clearly see a patern that outcome of successful and failed has the oposite trend with each other, and there are 3 intersect points. which can give Louise an idea about the balance funding goal amount for successful and failed.
 ### Challenges and Difficulties Encountered
 
 ## Results
