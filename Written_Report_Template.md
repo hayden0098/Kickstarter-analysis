@@ -18,6 +18,7 @@ In order to provide visualize line graph to Louise see the relation between outc
 
 The line graph above, clearly see a patern that outcome of successful and failed has the oposite trend with each other, and there are 3 intersect points. which can give Louise an idea about the balance funding goal amount for successful and failed.
 ### Challenges and Difficulties Encountered
+During the problem solving stage, Challenges or diffulties are frequently occur in every project. In the analysis of outcomes Based on Goals, using the countifs() functionin EXCEL is the only challenge for me, since there are different when ranges are between 2 number compare to the range that only have 1 tail end. So I have went to google search and watched the hint to figure out the solution and overcome the challenge for using countifs() function in case that the range is between 2 numbers.  
 
 ## Results
 
