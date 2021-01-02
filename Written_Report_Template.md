@@ -22,7 +22,7 @@ During the problem solving stage, Challenges or diffulties are frequently occur 
 
 ## Results
 
-#- What are two conclusions you can draw about the Outcomes based on Launch Date?
+-  ### What are two conclusions you can draw about the Outcomes based on Launch Date?
 --- 
 From the Line charts of "Theater Outcomes by Launch Date", we can see that May and June are haveing the most successful outcomes in Theater category.
 On the other hand, May to Aug almost have the same number of failed outcome, althought this are the months that number of outcomes were decreasing, number of 
