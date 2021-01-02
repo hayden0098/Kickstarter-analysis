@@ -22,20 +22,17 @@ During the problem solving stage, Challenges or diffulties are frequently occur 
 
 ## Results
 
--  ### What are two conclusions you can draw about the Outcomes based on Launch Date?
---- 
+-  ###### What are two conclusions you can draw about the Outcomes based on Launch Date? 
 From the Line charts of "Theater Outcomes by Launch Date", we can see that May and June are haveing the most successful outcomes in Theater category.
 On the other hand, May to Aug almost have the same number of failed outcome, althought this are the months that number of outcomes were decreasing, number of 
 successful are still higher than the number of failed and canceled. As conclusion the Theater category is the most successful one since haveing high successful 
 outcomes and stable canceled outcomes in low number.
 
-- What can you conclude about the Outcomes based on Goals?
---- 
+- ###### What can you conclude about the Outcomes based on Goals?
 From the Line chats of "Outcome Based on Goals Chart", we can see a patern that in the range less than $1000 to $24999 and range $40000 to $4999 are decreasing trend for percentage successful, increasing trend for percentage failed. In the range $25000 to $ $39999 and range $45000 to greater then 50000 are increasing trend for percentage successful, decreasing trend for percentage failed. Especially, the slpoe of line in range 30000 to 39999 and 40000 to 49999 are deeper then other. Also both successful and failed canceled remain unchange in range $35000 to $44999. percentage of failed and successful have the equal amount in range $15000 to$19999, $34999 to $39999. Therefore we can see that easy to success is the goals less then 1000, but wehn goal set to 25000 to 39999 will be increase the successful rate, especially the goal range 30000 to 39999.
 
-- What are some limitations of this dataset?
---- 
+- ###### What are some limitations of this dataset?
 The Kickstarter dataset we are workinng on has an error that we must correct it before start. In the Average Donation column there are #DIV/0! error occur, this error happen where the denominator of division formulac is 0. However not every campaign has backers, which make there is 0 as denuminator in the formula. Therefore we must clean the dataset before we go any further, in order to correct the error we use EXCEl iferror() function to debug. Since the eeor in dataset is kind of a missing values of the data, this could be consider as incomplete data and this could limit the usability of dataset. On the other hands, the dataset also have other limitation where using unix timestampc as format of Deadline and Launch date, this is the format that not easily to read so we need to convert it back to the general date format we know by using formula. This is the format limitation when data collected from different sources and not have compatibility, require preprocessing before the dataset is ready to analysis. 
-- What are some other possible tables and/or graphs that we could create?
---- 
+
+- ###### What are some other possible tables and/or graphs that we could create? 
 How long does Louise want to make her crowdfunding campaign valid is also the possible factor will impact her outcome, We could create a line graph using number of outcomes as Y-axis, and the time line that run for each crowdfunding campaign as X-axisa. So that we can observe the relation between these 2 factor, and see the trend for different duration time of campaign.
